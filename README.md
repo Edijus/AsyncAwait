@@ -28,3 +28,5 @@ The helper class TAsyncHelper provides a simple API to run asynchronous function
 Cancellation Support:
 Although not built-in, the unit can be enhanced by integrating with the OperationToken library from my other repository, allowing you to cancel long-running operations gracefully.
 
+Integration with OperationToken
+While this unit handles asynchronous function execution and exception management, integrating it with the OperationToken library can provide additional benefits such as cancellation of asynchronous operations. For example, you might check an OperationToken state before executing the function or cancel the task if the token is fired.
